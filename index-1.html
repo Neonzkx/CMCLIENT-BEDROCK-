@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CMCLIENT — Performance. Precisión. Control.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;900&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#hero" class="nav-logo">
+    <img src="logo.png" alt="CMClient Logo" class="nav-logo-img"> CMCLIENT
+  </a>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#features">Features</a>
+    <a href="#downloads">Download</a>
+    <a href="#gallery">Gallery</a>
+  </div>
+  <div class="nav-right">
+    <a href="#downloads" class="nav-cta">⚡ Download</a>
+    <button class="nav-hamburger" id="navHamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about"     class="mobile-link" onclick="closeMobileMenu()">About</a>
+  <a href="#features"  class="mobile-link" onclick="closeMobileMenu()">Features</a>
+  <a href="#downloads" class="mobile-link" onclick="closeMobileMenu()">Download</a>
+  <a href="#gallery"   class="mobile-link" onclick="closeMobileMenu()">Gallery</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-content">
+   <div class="hero-logo">⚡</div>
+    <h1 class="hero-title">CM<span>CLIENT BEDROCK</span></h1>
+    <p class="hero-sub">Performance<em> · </em>Precision<em> · </em>Control</p>
+    <div class="hero-buttons">
+      <a href="#downloads" class="btn-primary">⚡ Download Now</a>
+      <a href="#about" class="btn-secondary">Learn More</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><div class="stat-num">50%</div><div class="stat-label">Java Fidelity</div></div>
+      <div class="stat"><div class="stat-num">1.8</div><div class="stat-label">Java Style</div></div>
+      <div class="stat"><div class="stat-num">100%</div><div class="stat-label">Bedrock</div></div>
+      <div class="stat"><div class="stat-num">PvP</div><div class="stat-label">Focused</div></div>
+    </div>
+  </div>
+  <div class="hero-line"></div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-text reveal">
+    <div class="section-label">About</div>
+    <h2 class="section-title">Built for<br><span style="color:var(--red)">killers.</span></h2>
+    <p class="section-body">
+      A recreation of the original Java client, faithfully ported to Bedrock. No kidding—it's 50% identical to the original in mechanics, UI, and feel. The rest is interpreted in the same spirit.
+    </p>
+    <p class="section-body" style="margin-top: 16px;">
+      If you played the original Java, you'll recognize it instantly. If you're new, you'll understand why it was so good.
+    </p>
+    <div class="about-tags" style="margin-top: 28px;">
+      <span class="tag">Bedrock</span>
+      <span class="tag">Java Inspired</span>
+      <span class="tag">Faithful recreation</span>
+    </div>
+  </div>
+  <div class="about-visual reveal reveal-delay-2">
+    <div class="about-corner tl"></div>
+    <div class="about-corner tr"></div>
+    <div class="about-corner bl"></div>
+    <div class="about-corner br"></div>
+    <img src="logo.png" alt="CMClient" class="about-visual-logo">
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- FEATURES -->
+<section id="features">
+  <div class="features-header reveal">
+    <div class="section-label">Features</div>
+    <h2 class="section-title">Why<br><span style="color:var(--red)">CMClient BEDROCK.</span></h2>
+  </div>
+  <div class="features-grid features-grid--2">
+    <div class="feature-card reveal">
+      <span class="feature-icon">☕</span>
+      <div class="feature-name">Java Feel</div>
+      <p class="feature-desc">Faithful recreation of the original Java client. Feel, movement, and aesthetics ported to Bedrock with 50% accuracy to the source code.</p>
+    </div>
+    <div class="feature-card reveal reveal-delay-1">
+      <span class="feature-icon">🎨</span>
+      <div class="feature-name"> UI Cover</div>
+      <p class="feature-desc">A visually recreated interface from the original Java. Menus, HUD, and layouts faithful to the design you already know.</p>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- DOWNLOADS -->
+<section id="downloads">
+  <div class="reveal">
+    <div class="section-label">Downloads</div>
+    <h2 class="section-title">Get the<br><span style="color:var(--red)">Client.</span></h2>
+    <p class="section-body">One version. No confusion. Download, launch, dominate.</p>
+  </div>
+  <div class="download-card reveal">
+    <div class="download-header">
+      <div class="download-version">CMClient Bedrock v4</div>
+      <div class="download-badge">Latest</div>
+    </div>
+    <div class="download-meta">
+      <div class="meta-item">
+        <div class="meta-key">Versions</div>
+        <div class="meta-val">v1-v2-v3-v3.5-v4</div>
+      </div>
+      <div class="meta-item">
+        <div class="meta-key">Size</div>
+        <div class="meta-val">It depends on the version you download. </div>
+      </div>
+      <div class="meta-item">
+        <div class="meta-key">Compatible</div>
+        <div class="meta-val">1.21-1.26 ( It all depends on the client version you download)</div>
+      </div>
+    </div>
+    <div class="download-footer">
+      <a href="https://discord.gg/x5n6Y4YX2J" target="_blank" class="btn-primary">⚡ Download Now</a>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+  <div class="reveal">
+    <div class="section-label">Gallery</div>
+    <h2 class="section-title">See it<br><span style="color:var(--red)">live.</span></h2>
+    <p class="section-body">Actual customer screenshots. What you see is what you download.</p>
+  </div>
+
+  <!-- START SCREEN × 3 -->
+  <div class="gallery-group reveal">
+    <div class="gallery-group-label">Start Screen</div>
+    <div class="gallery-row gallery-row-3">
+
+      <div class="gallery-item">
+        <div class="gallery-item-inner">
+          <img src="screenshots/startscreen1.png" alt="Start Screen 1" class="gallery-img">
+          <div class="gallery-placeholder">
+            <span class="placeholder-icon">🖼️</span>
+            <span class="placeholder-text">start_screen_1.png</span>
+          </div>
+          <div class="gallery-overlay"><span class="gallery-label">Start Screen — View 1</span></div>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <div class="gallery-item-inner">
+          <img src="screenshots/startscreen2.png" alt="Start Screen 2" class="gallery-img">
+          <div class="gallery-placeholder">
+            <span class="placeholder-icon">🖼️</span>
+            <span class="placeholder-text">start_screen_2.png</span>
+          </div>
+          <div class="gallery-overlay"><span class="gallery-label">Start Screen — View 2</span></div>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <div class="gallery-item-inner">
+          <img src="screenshots/startscreen3.png" alt="Start Screen 3" class="gallery-img">
+          <div class="gallery-placeholder">
+            <span class="placeholder-icon">🖼️</span>
+            <span class="placeholder-text">start_screen_3.png</span>
+          </div>
+          <div class="gallery-overlay"><span class="gallery-label">Start Screen — View 3</span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- MOD MENU + MINI CONFIGS × 2 -->
+  <div class="gallery-group reveal">
+    <div class="gallery-group-label">Mod Menu</div>
+    <div class="gallery-row gallery-row-3">
+
+      <div class="gallery-item gallery-item--wide">
+        <div class="gallery-item-inner">
+          <img src="screenshots/modmenu.png" alt="Mod Menu" class="gallery-img">
+          <div class="gallery-placeholder">
+            <span class="placeholder-icon">🖼️</span>
+            <span class="placeholder-text">mod_menu.png</span>
+          </div>
+          <div class="gallery-overlay"><span class="gallery-label">Mod Menu</span></div>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <div class="gallery-item-inner">
+          <img src="screenshots/settingsmodmenu.png" alt="Mini Config 1" class="gallery-img">
+          <div class="gallery-placeholder">
+            <span class="placeholder-icon">🖼️</span>
+            <span class="placeholder-text">mini_config_1.png</span>
+          </div>
+          <div class="gallery-overlay"><span class="gallery-label">Mini Config — 1</span></div>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <div class="gallery-item-inner">
+          <img src="screenshots/settingsmodmenu2.png" alt="Mini Config 2" class="gallery-img">
+          <div class="gallery-placeholder">
+            <span class="placeholder-icon">🖼️</span>
+            <span class="placeholder-text">mini_config_2.png</span>
+          </div>
+          <div class="gallery-overlay"><span class="gallery-label">Mini Config — 2</span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SETTINGS -->
+  <div class="gallery-group reveal">
+    <div class="gallery-group-label">Settings</div>
+    <div class="gallery-row gallery-row-1">
+
+      <div class="gallery-item gallery-item--full">
+        <div class="gallery-item-inner">
+          <img src="screenshots/settings.png" alt="Settings" class="gallery-img">
+          <div class="gallery-placeholder">
+            <span class="placeholder-icon">🖼️</span>
+            <span class="placeholder-text">settings.png</span>
+          </div>
+          <div class="gallery-overlay"><span class="gallery-label">Settings Screen</span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-left">
+    <div class="footer-logo"><img src="logo.png" alt="CMClient" class="footer-logo-img"> CM<span>CLIENT BEDROCK</span></div>
+    <div class="footer-links">
+      <a href="#">Discord</a>
+      <a href="#downloads">Download</a>
+      <a href="#about">About</a>
+    </div>
+  </div>
+
+  <div class="footer-center">
+    <div class="footer-devs-label">Developers</div>
+    <div class="footer-devs">
+      <span class="footer-dev footer-dev--lead">Neon</span>
+      <span class="footer-dev">llit</span>
+      <span class="footer-dev">Chixuty</span>
+      <span class="footer-dev">Bedezu</span>
+    </div>
+  </div>
+
+  <div class="footer-right">
+    <button class="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Volver arriba">
+      <span class="back-arrow">↑</span>
+      <span class="back-text">BACK TO TOP</span>
+    </button>
+    <div class="footer-version"> © CMCLIENT BEDROCK 2026. All Rights Reserved. </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
